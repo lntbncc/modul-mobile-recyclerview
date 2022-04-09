@@ -1,0 +1,54 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <TextView android:id="@+id/layout_post_txt_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Username"
+        android:layout_margin="8dp"/>
+
+    <ImageView
+        android:id="@+id/layout_post_img_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/like"
+            android:layout_margin="8dp" />
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/comment"
+            android:layout_margin="8dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_rating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:textStyle="bold"
+        android:text="1,234 likes"/>
+
+    <TextView
+        android:id="@+id/layout_post_txt_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:text="Comment Here"/>
+
+</LinearLayout>
